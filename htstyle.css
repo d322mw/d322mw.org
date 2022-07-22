@@ -1,0 +1,70 @@
+@font-face {
+    src: url(fonts/boeing-style.ttf);
+    font-family: boeing;
+}
+@font-face {
+    src: url(fonts/orbitron-VariableFontwght.ttf);
+    font-family: orb;
+}
+.paragraph {
+    font-size: 50px;
+    line-height: 62px;
+    font-family: boeing;
+}
+.paragraph {
+    font-size: 50px;
+    line-height: 62px;
+    font-family: orb;
+}
+.neontext{
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #000000c2,
+    0 0 82px #000000c2,
+    0 0 92px #000000c2,
+    0 0 102px #000000c2,
+    0 0 151px #000000c2;
+}
+
+h1{
+    text-align: center;
+    font-weight: 100;
+    animation: glow 0.5s easy-in-out infinite alternate-reverse;
+}
+
+@keyframes glow{
+    10%{
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #ffffff,
+        0 0 80px #000000c2,
+        0 0 90px #000000c2,
+        0 0 100px #000000c2,
+        0 0 150px #000000c2;
+    }
+    0%{
+        text-shadow:
+        0 0 4px #fff,
+        0 0 10px #fff,
+        0 0 18px #fff,
+        0 0 38px #000000c2,
+        0 0 73px #000000c2,
+        0 0 80px #000000c2,
+        0 0 94px #000000c2,
+        0 0 140px #000000c2;
+    }
+}
+.sociali {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.img1{
+    vertical-align: middle; 
+}
+
