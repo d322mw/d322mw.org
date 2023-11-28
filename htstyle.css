@@ -1,9 +1,9 @@
 @font-face {
-    src: url(fonts/boeing-style.ttf);
+    src: url(../fonts/boeing-style.ttf);
     font-family: boeing;
 }
 @font-face {
-    src: url(fonts/orbitron-VariableFontwght.ttf);
+    src: url(../fonts/orbitron-VariableFontwght.ttf);
     font-family: orb;
 }
 .paragraph {
@@ -62,6 +62,16 @@ h1{
 .sociali {
     text-decoration: none;
     margin: 0 20px;
+}
+
+.img1{
+    vertical-align: middle; 
+}
+.img_dig1{
+
+    float: right;
+
+
 }
 
 .img1{
